@@ -1,0 +1,56 @@
+/* Custom design below! */
+@import url("./components/banner.css");
+@import url("./components/cards.css");
+@import url("./components/footer.css");
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* a:visited {
+  text-decoration: none;
+  color: inherit;
+ } */
+
+.zero-margin {
+  margin: 0;
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 15px black;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.how-it-works {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
